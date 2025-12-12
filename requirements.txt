@@ -1,0 +1,24 @@
+# Core
+numpy>=1.23
+pandas>=1.5
+scipy>=1.10
+
+# Deep learning
+torch>=2.0
+
+# Utils
+tqdm>=4.64
+pyyaml>=6.0
+
+# Metrics / ML helpers (optional but common)
+scikit-learn>=1.2
+
+# Plotting (if scripts generate figures)
+matplotlib>=3.7
+
+# If you use Excel outputs
+openpyxl>=3.1
+
+# If you use sentence embeddings / SBERT in preprocessing or runtime
+# sentence-transformers>=2.2
+# transformers>=4.30

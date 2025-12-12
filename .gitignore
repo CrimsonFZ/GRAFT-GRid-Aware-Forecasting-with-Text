@@ -1,0 +1,54 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ===== Environments =====
+.venv/
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== Logs / outputs =====
+logs/
+log/
+output/
+outputs/
+results/
+checkpoints/
+runs/
+wandb/
+tensorboard/
+*.log
+
+# ===== Model / arrays =====
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.npy
+*.npz
+
+# ===== Data (keep out by default) =====
+data/raw/
+data/cache/
+data/interim/
+*.csv
+*.parquet
+*.jsonl
+*.zip
+*.tar
+*.gz
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
